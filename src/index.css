@@ -1,0 +1,22 @@
+:root {
+  --bg-primary: #0f1f12;      /* background halaman (hijau sangat gelap) */
+  --bg-card: #1a3320;         /* background card / navbar */
+  --bg-card2: #1f3d28;        /* background card sedikit lebih terang */
+  --color-main: #18542a;      /* hijau tua utama */
+  --color-accent: #ffc926;    /* kuning emas — tombol, highlight */
+  --color-light: #f3e8cc;     /* krem — teks utama */
+  --color-muted: #a8c4a2;     /* teks sekunder (hijau muda pucat) */
+  --color-border: #2a4a30;    /* border card */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--color-light);
+}
